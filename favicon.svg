@@ -1,0 +1,30 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 渐变背景 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.15"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- 简单的游戏图标：四个圆形按钮排列成菱形 -->
+  <g transform="translate(200, 200)">
+    <!-- 上按钮 -->
+    <circle cx="0" cy="-70" r="35" fill="#EC4899" stroke="#DB2777" stroke-width="4"/>
+    
+    <!-- 右按钮 -->
+    <circle cx="70" cy="0" r="35" fill="#F59E0B" stroke="#D97706" stroke-width="4"/>
+    
+    <!-- 下按钮 -->
+    <circle cx="0" cy="70" r="35" fill="#3B82F6" stroke="#2563EB" stroke-width="4"/>
+    
+    <!-- 左按钮 -->
+    <circle cx="-70" cy="0" r="35" fill="#10B981" stroke="#059669" stroke-width="4"/>
+    
+    <!-- 中心圆 -->
+    <circle cx="0" cy="0" r="25" fill="#7C3AED" stroke="#6366F1" stroke-width="4"/>
+  </g>
+</svg>

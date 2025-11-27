@@ -1,0 +1,17 @@
+{
+  "name": "CreepyDates",
+  "short_name": "CreepyDates",
+  "description": "A creepypasta dating simulator fangame — routes, guides, and resources.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFD700",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+} 

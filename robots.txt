@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*?*q=
+Disallow: /manifest.json
+Disallow: favicon.ico
+Disallow: favicon.svg
+
+Sitemap: https://airobus.github.io/sitemap.xml
